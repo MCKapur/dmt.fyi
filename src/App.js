@@ -347,7 +347,7 @@ class FAQ extends Component {
 							</p>
 						</div>
 						<div className="faq-item" id="faq-item-26" onClick={() => { this.showFAQ(26) }}>
-							<p className="faq-title" id="faq-title-26">What advice do DMT pros give to DMT noobs?</p>
+							<p className="faq-title" id="faq-title-26">What advice do DMT pros have for DMT noobs?</p>
 							<p className="faq-answer" id="faq-answer-26" onClick={(e) => { e.stopPropagation(); }}>
 								Psychonauts are nice people. This <a className="link" href="https://www.reddit.com/r/DMT/comments/304dgp/please_post_your_advice_for_first_timers_here/">Reddit thread</a> has a ton of great advice, and some of the best tips are compiled below. Some of it might be conflicting, which is okay!
 								<div class="notepaper">
