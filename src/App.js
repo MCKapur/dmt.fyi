@@ -322,7 +322,7 @@ class FAQ extends Component {
 						<p className="faq-section-title" id="betting-section-title">DMT & You&nbsp; <span role="img">👊</span></p>
 						<div className="faq-item" id="faq-item-23" onClick={() => { this.showFAQ(23) }}>
 							<p className="faq-title" id="faq-title-23">Should I take DMT?</p>
-							<p className="faq-answer" id="faq-answer-23" onClick={(e) => { e.stopPropagation(); }}>Only if you feel that you are ready... for the world's <i>strongest</i> psychedelic. Only if you don't have a predisposition towards psychosis. Only if you are prepared for the risks associated with acquiring, and taking, DMT. Only if you feel you have something to genuinely gain from the experience. Only if you are serious about it, have thought it through, and are fully committed to it, And only if <strong>YOU</strong> want to.</p>
+							<p className="faq-answer" id="faq-answer-23" onClick={(e) => { e.stopPropagation(); }}>Only if you feel that you are ready... for the world's <i>strongest</i> psychedelic. Only if you don't have a predisposition towards psychosis. Only if you are prepared for the risks associated with acquiring, and taking, DMT. Only if you feel you have something to genuinely gain from the experience. Only if you are serious about it, have thought it through, and are fully committed to it. And only if <strong>YOU</strong> want to.</p>
 						</div>
 						<div className="faq-item" id="faq-item-24" onClick={() => { this.showFAQ(24) }}>
 							<p className="faq-title" id="faq-title-24">Why take DMT? Why not?</p>
