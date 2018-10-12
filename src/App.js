@@ -67,9 +67,9 @@ class FAQ extends Component {
 
 								<img className="ref-image" src="https://upload.wikimedia.org/wikipedia/commons/4/47/Dimethyltryptamine_27feb.gif"/>
 
-								<p>As a crystal: &nbsp;<sup className="source"><a href="https://en.wikipedia.org/wiki/File:Dimethyltryptamine_27feb.gif" target="_blank">4</a></sup></p>
+								<p>As a crystal: &nbsp;<sup className="source"><a href="https://mycotopia.net/uploads/monthly_01_2012/post-51868-138194287916.jpg" target="_blank">4</a></sup></p>
 
-								<img className="ref-image" src="https://qph.fs.quoracdn.net/main-qimg-c73cac48d434229ce179e01017a6be63.webp"/>
+								<img className="ref-image" src="https://mycotopia.net/uploads/monthly_01_2012/post-51868-138194287916.jpg"/>
 
 								<p>Before you smoke it: &nbsp;<sup className="source"><a href="https://www.northpointrecovery.com/blog/dmt-trip-one-wont-want-take/" target="_blank">5</a></sup></p>
 
