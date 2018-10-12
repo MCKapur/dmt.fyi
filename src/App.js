@@ -15,9 +15,15 @@ class FAQ extends Component {
     script.async = true;
 
     document.body.appendChild(script);
+
+    for (var i = 0; i < 100; i++) {
+    	this.showFAQ(i);
+    }
 	}
 
 	showFAQ(id) {
+		if (!document.getElementById("faq-answer-" + id)) return
+
 		if (document.getElementById("faq-answer-" + id).style.display === "block") {
 			document.getElementById("faq-title-" + id).style.color = "#82817D";
 			document.getElementById("faq-title-" + id).style.marginTop = "0px";
