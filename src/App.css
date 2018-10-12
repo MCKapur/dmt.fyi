@@ -1,0 +1,409 @@
+body {
+	margin:0px;
+	padding:0px;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+} 
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.link {
+	color: #3498db;
+}
+
+.source {
+	color: #3498db;
+}
+
+.ref-image {
+	margin-bottom: 20px;
+	width: 30vh;
+	height: auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background: -webkit-gradient(linear,  left top,  left bottom, 
+        color-stop(0%, rgba(255, 0, 0, 1)), 
+        color-stop(15%, rgba(255, 255, 0, 1)),
+        color-stop(30%, rgba(0, 255, 0, 1)),
+        color-stop(50%, rgba(0, 255, 255, 1)),
+        color-stop(65%, rgba(0, 0, 255, 1)),
+        color-stop(80%, rgba(255, 0, 255, 1)),
+        color-stop(100%, rgba(255, 0, 0, 1)));
+  border: 4px solid black;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 0px 0px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+.timeline::after {
+  left: 31px;
+}
+
+/* Full-width containers */
+.container {
+  width: 90%;
+  padding-left: 70px;
+  padding-right: 25px;
+}
+
+/* Make sure that all arrows are pointing leftwards */
+.container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Make sure all circles are at the same spot */
+.left::after, .right::after {
+  left: 15px;
+}
+
+/* Make all right containers behave like the left ones */
+.right {
+  left: 0%;
+}
+
+.quote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.quote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 3em;
+  line-height: 0.01em;
+  margin-right: 0.1em;
+  vertical-align: -0.4em;
+}
+
+.quote p {
+  display: inline;
+}
+
+.visual {
+	margin-bottom: 10px;
+	width: 75%;
+}
+
+.quote-ref {
+	margin-bottom: -5px;
+}
+
+.quote-ref-small {
+	font-size: 15px;
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+
+.notepaper {
+  position: relative;
+  margin: 30px auto;
+  padding: 29px 20px 20px 45px;
+  width: 80%;
+  line-height: 30px;
+  color: #6a5f49;
+  text-shadow: 0 1px 1px white;
+  background-color: #f2f6c1;
+  background-image: -webkit-radial-gradient(center, cover, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 90%), -webkit-repeating-linear-gradient(top, transparent 0%, transparent 29px, rgba(239, 207, 173, 0.7) 29px, rgba(239, 207, 173, 0.7) 30px);
+  background-image: -moz-radial-gradient(center, cover, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 90%), -moz-repeating-linear-gradient(top, transparent 0%, transparent 29px, rgba(239, 207, 173, 0.7) 29px, rgba(239, 207, 173, 0.7) 30px);
+  background-image: -o-radial-gradient(center, cover, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 90%), -o-repeating-linear-gradient(top, transparent 0%, transparent 29px, rgba(239, 207, 173, 0.7) 29px, rgba(239, 207, 173, 0.7) 30px);
+  border: 1px solid #c3baaa;
+  border-color: rgba(195, 186, 170, 0.9);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 5px #d8e071, 0 0 1px rgba(0, 0, 0, 0.1), 0 2px rgba(0, 0, 0, 0.02);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 5px #d8e071, 0 0 1px rgba(0, 0, 0, 0.1), 0 2px rgba(0, 0, 0, 0.02);
+}
+
+.notepaper:before, .notepaper:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.notepaper:before {
+  left: 28px;
+  width: 2px;
+  border: solid #efcfad;
+  border-color: rgba(239, 207, 173, 0.9);
+  border-width: 0 1px;
+}
+
+.notepaper:after {
+  z-index: -1;
+  left: 0;
+  right: 0;
+  background: rgba(242, 246, 193, 0.9);
+  border: 1px solid rgba(170, 157, 134, 0.7);
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+.curly-quotes:before, .curly-quotes:after {
+  display: inline-block;
+  vertical-align: top;
+  height: 30px;
+  line-height: 48px;
+  font-size: 50px;
+  opacity: .2;
+}
+
+.curly-quotes:before {
+  content: '\201C';
+  margin-right: 4px;
+  margin-left: -8px;
+}
+
+.curly-quotes:after {
+  content: '\201D';
+  margin-left: 4px;
+  margin-right: -8px;
+}
+
+.quote-by {
+  display: block;
+  padding-right: 10px;
+  text-align: right;
+  font-size: 13px;
+  font-style: italic;
+  color: #84775c;
+}
+
+.lt-ie8 .notepaper {
+  padding: 15px 25px;
+}
+
+.hero {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://2.bp.blogspot.com/-qpqJt7p-sJw/VRRfIh5Ks8I/AAAAAAAAAVA/cuJKjZ8tFzA/s1600/Spiral_Anim_7_by_LordSqueak.gif");
+	height: 40vh;
+  width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.header {
+	color: white;
+	font-family: black;
+	font-size: 3.5vw;
+	letter-spacing: 10px;
+	display: inline-block;
+	text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.link {
+	color: #3498db;
+}
+
+a {
+	color:inherit;
+	text-decoration:none;
+}
+
+@font-face {
+	font-family:black;
+	src:url('fonts/Montserrat-Black.ttf');
+}
+
+@font-face {
+	font-family:regular;
+	src:url('fonts/Calibre-Regular.otf');
+}
+
+@font-face {
+	font-family:medium;
+	src:url('fonts/Calibre-Medium.otf');
+}
+
+@font-face {
+	font-family:semibold;
+	src:url('fonts/Calibre-Semibold.otf');
+}
+
+.faq-top-container {
+	width:100%;
+	height:40px;
+	background-color:#B7F4C7;
+	padding-top:65px;
+}
+
+.faq-logo {
+	width:100px;
+	display:block;
+	margin:0px auto;
+}
+
+.faq-bottom-container {
+	width:660px;
+	display:block;
+	margin:0px auto;
+	padding-bottom:120px;
+}
+
+.faq-item {
+	border-top:2px solid #F3F1EE;
+	border-bottom:2px solid #F3F1EE;
+	padding-top:24px;
+	padding-bottom:18px;
+	color:#82817D;
+	font-family:medium;
+	font-size:20px;
+	cursor:pointer;
+	margin-top:-2px;
+	background-image:url('images/plus-icon.png');
+	background-size:12px;
+	background-repeat:no-repeat;
+	background-position:648px 26px;
+	transition:ease all .2s;
+}
+
+@media (max-width: 800px) {
+	.faq-top-container {
+		display:none;
+	}
+	.faq-bottom-container {
+		width:80%;
+		margin-top:-25px;
+	}
+	.faq-item {
+		background-position:right 26px center;
+	}
+	.faq-title {
+		width:85%;
+	}
+	.active-item {
+		background-position:right 26px top 48px;
+	}
+}
+
+.faq-title {
+	margin-top:0px;
+	margin-bottom:0px;
+	transition:ease all .2s;
+}
+
+.faq-answer {
+	display:none;
+	font-family:regular;
+}
+
+.faq-item:hover .faq-title {
+	color:black;
+}
+
+.faq-section-title {
+	font-family:medium;
+	font-size:30px;
+	margin-bottom:18px;
+	margin-top:80px;
+}
