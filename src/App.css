@@ -132,7 +132,7 @@ html, body {
 
 /* Full-width containers */
 .container {
-  width: 90%;
+  width: 70%;
   padding-left: 70px;
   padding-right: 25px;
 }
@@ -393,7 +393,7 @@ a {
 }
 
 .faq-answer {
-	display:none;
+	/*display:none;*/
 	font-family:regular;
 }
 
