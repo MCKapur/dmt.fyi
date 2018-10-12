@@ -389,6 +389,9 @@ class FAQ extends Component {
 									<br/>
 									<br/>
 									(You can also try the dark net.)
+									<br/>
+									<br/>
+									Good luck!
 								</p>
 							</div>
 					</div>
