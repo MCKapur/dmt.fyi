@@ -105,7 +105,7 @@ class FAQ extends Component {
 						<div className="faq-item" id="faq-item-9" onClick={() => { this.showFAQ(9) }}>
 							<p className="faq-title" id="faq-title-9">What do people say about their DMT experiences?</p>
 							<p className="faq-answer" id="faq-answer-9" onClick={(e) => { e.stopPropagation(); }}>
-								Many things! Here are five cool extracts from an online collection of <a className="link" href="http://www.serendipity.li/dmt/340_dmt_trip_reports.htm#10" target="_blank">340 DMT Trip Reports</a>, with an emphasis on entity interaction.
+								Many things. Here are five cool extracts from an online collection of <a className="link" href="http://www.serendipity.li/dmt/340_dmt_trip_reports.htm#10" target="_blank">340 DMT Trip Reports</a>, with an emphasis on entity interaction.
 
 		            	<div class="notepaper">
 		            		<strong>Report #7</strong>
@@ -296,7 +296,7 @@ class FAQ extends Component {
 						<div className="faq-item" id="faq-item-17" onClick={() => { this.showFAQ(17) }}>
 							<p className="faq-title" id="faq-title-17">Can I appreciate some DMT visualizations?</p>
 							<p className="faq-answer" id="faq-answer-17" onClick={(e) => { e.stopPropagation(); }}>
-								Of course!
+								Of course.
 
 								<blockquote className="quote" cite="https://www.reddit.com/r/replications/comments/31skva/dmt_gif_album_oc/crerumj">If you took everyone one of those and played them back to back in my brain while inserting a woman dancing and speaking some alien language this would be pretty damn dead on</blockquote>
 								<p className="quote-ref-small"><a className="link" href="https://www.reddit.com/r/replications/comments/31skva/dmt_gif_album_oc/crerumj" target="_blank"><i>— SIDKITTEH on Reddit</i></a></p>
@@ -333,7 +333,7 @@ class FAQ extends Component {
 						<div className="faq-item" id="faq-item-25" onClick={() => { this.showFAQ(25) }}>
 							<p className="faq-title" id="faq-title-25">How do I take DMT?</p>
 							<p className="faq-answer" id="faq-answer-25" onClick={(e) => { e.stopPropagation(); }}>
-								You can smoke, snort, ingest, or inject DMT. The YouTube channel PsychedSubstance has an excellent crash course on how to smoke DMT safely. It is not worth attempting to duplicate the information over here. The delivery would not be as convincing, or effective. Watching this video before taking DMT is absolutely paramount. Please test your DMT (to make sure it really is DMT!), using a <a href="https://testkitplus.com/?ap_id=psychedsubstance" className="link">DMT Test Kit</a>, before taking it.
+								You can smoke, snort, ingest, or inject DMT. The YouTube channel PsychedSubstance has an excellent crash course on how to smoke DMT safely. It is not worth attempting to duplicate the information over here. The delivery would not be as convincing, or effective. Watching this video before taking DMT is absolutely paramount. Please test your DMT (to make sure it really is DMT), using a <a href="https://testkitplus.com/?ap_id=psychedsubstance" className="link">DMT Test Kit</a>, before taking it.
 								<br/>
 								<br/>
 								<iframe width="100%" height="315" src="https://www.youtube.com/embed/hHmU0-2Txbc">
