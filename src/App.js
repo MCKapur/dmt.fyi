@@ -173,7 +173,7 @@ class FAQ extends Component {
 
 						<p className="faq-section-title">DMT: Some Context&nbsp; <span role="img">☮️</span></p>
 						<div className="faq-item" id="faq-item-13" onClick={() => { this.showFAQ(13) }}>
-							<p className="faq-title" id="faq-title-13">What’s the history of DMT?</p>
+							<p className="faq-title" id="faq-title-13" onClick={(e) => { e.stopPropagation(); }}>What’s the history of DMT?</p>
 							<p className="faq-answer" id="faq-answer-13">
 								<div class="timeline">
 								  <div class="container left">
