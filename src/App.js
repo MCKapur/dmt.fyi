@@ -383,7 +383,7 @@ class FAQ extends Component {
 								</p>
 							</div>
 							<div className="faq-item" id="faq-item-27" onClick={() => { this.showFAQ(27) }}>
-								<p className="faq-title" id="faq-title-27">OK, so how can I get me some DMT?</p>
+								<p className="faq-title" id="faq-title-27">OK, so how can I get some DMT?</p>
 								<p className="faq-answer" id="faq-answer-27" onClick={(e) => { e.stopPropagation(); }}>
 									They say not to search for it — for, when the time is right, DMT will find you. 🙏
 									<br/>
