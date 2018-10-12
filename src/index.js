@@ -7,9 +7,11 @@ import App from './App';
 import HttpsRedirect from 'react-https-redirect';
 
 ReactDOM.render((
-	<Router>
-		<App />
-	</Router>
+	<HttpsRedirect>
+		<Router>
+			<App />
+		</Router>
+	</HttpsRedirect>
 ), document.getElementById('root'));
 
 //registerServiceWorker();
