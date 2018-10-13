@@ -361,7 +361,7 @@ a {
 	font-size:20px;
 	cursor:pointer;
 	margin-top:-2px;
-	background-image:url('images/plus-icon.png');
+	/*background-image:url('images/plus-icon.png');*/
 	background-size:12px;
 	background-repeat:no-repeat;
 	background-position:648px 26px;
