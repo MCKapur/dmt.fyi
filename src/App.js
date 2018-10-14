@@ -77,7 +77,7 @@ class FAQ extends Component {
 
 								<img className="ref-image" src="https://mycotopia.net/uploads/monthly_01_2012/post-51868-138194287916.jpg"/>
 
-								<p>Before you smoke it: &nbsp;<sup className="source"><a href="https://www.northpointrecovery.com/blog/dmt-trip-one-wont-want-take/" target="_blank">5</a></sup></p>
+								<p>Before it is smoked: &nbsp;<sup className="source"><a href="https://www.northpointrecovery.com/blog/dmt-trip-one-wont-want-take/" target="_blank">5</a></sup></p>
 
 								<img className="ref-image" src="https://www.northpointrecovery.com/blog/wp-content/uploads/2017/06/what-is-dmt.jpg"/>
 							</p>
