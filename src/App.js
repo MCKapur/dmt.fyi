@@ -349,27 +349,12 @@ class FAQ extends Component {
 						<div className="faq-item" id="faq-item-26" onClick={() => { this.showFAQ(26) }}>
 							<p className="faq-title" id="faq-title-26">What advice do DMT pros have for DMT noobs?</p>
 							<p className="faq-answer" id="faq-answer-26" onClick={(e) => { e.stopPropagation(); }}>
-								Psychonauts are nice people. This <a className="link" href="https://www.reddit.com/r/DMT/comments/304dgp/please_post_your_advice_for_first_timers_here/">Reddit thread</a> has a ton of great advice, and some of the best tips are compiled below. Some of it might be conflicting, which is okay!
+								Psychonauts are nice people. This <a className="link" href="https://www.reddit.com/r/DMT/comments/304dgp/please_post_your_advice_for_first_timers_here/">Reddit thread</a> has a ton of great advice. The five best tips are compiled below.
 								<div class="notepaper">
 		            		The first thing to know, and probably the most important, everything will be okay! No matter what happens, so long as you dose correctly (and even if you don't, to a degree), you will be totally fine. The medicine will take care of you, the universe will keep you safe. While the experience is indescribable and wild, your body will be perfectly fine. Wherever you go during the experience, you will come back in about 5 minutes.
 									</div>
 									<div class="notepaper">
-		            		I suggest using a gravity bong to smoke DMT. Though a normal bong will do just fine, there's a number of benefits to using a GB. The first of which is that, as any GB enthusiast can attest, a gravity bong is a good way to get a large hit in your lungs really quick. Personally, I'm more prone to coughing than most smokers, and DMT is very harsh compared to marijuana (not to mention it has a very funky taste and smell). This means (and I'm embarrassed to admit this) often when smoking out of a regular bong I'll get the urge to cough before inhaling the whole thing; you definitely want to avoid this when smoking DMT, as obviously it's harder to come by than weed, and that one hit might be your only chance to experience the trip. A gravity bong solves this as it at least lets you inhale the entire thing before no longer being able to repress your cough. Having said that, be sure to hold it in your lungs at least 4-5 seconds, and breathe it back out as slowly as possible.
-									</div>
-									<div class="notepaper">
-		            		...be prepared to be astonished and terrified. There's a million different metaphors I could draw between DMT and roller coasters, but one of the many ways DMT is like a roller coaster is that you know ahead of time it will be intense and frightening, but you ride it with the knowledge that it'll all be over after a very short time.
-									</div>
-									<div class="notepaper">
 		            		Do this on a good day, when your headspace is relatively clear, no responsibilities, not much to worry about. Do it in a good place where you feel comfortable, either alone or with people you trust. I recommend doing this with no music, as I feel like it forces you into reality for the beginning part of the trip. Though what really matters is what makes you comfortable!
-									</div>
-									<div class="notepaper">
-		            		A good tip from my experience: don't bring foil anywhere near your tek, as aluminum foil and NaOH react to form Al(OH)4.
-									</div>
-									<div class="notepaper">
-		            		Set and setting are most important. I personally, must have music playing. I'd recommend something epic, such as movie soundtracks or classical. When you smoke it, it tastes like shoes and is very hard hitting. You will instantly feel... really, really weird. Your vision will go... also weird. Just lay back and enjoy the ride. I personally like eyes open, but many like closed. You're also going to be in a state of sleep paralysis, so there's that. But its over very fast, my successful trips were generally around 6-12 minutes. Have a nice journey ;)
-									</div>
-									<div class="notepaper">
-		            		You should always pack a small layer of some sort of herb in the bowl under AND on top of the DMT. This is because DMT is a fine crystalline powder, and some of it will inevitably fall through (or be sucked into) the bowl if packed by itself - given you likely paid a pretty penny to get your hands on it, you don't want to be wasteful. Additionally, and I don't remember where I saw this but it definitely makes sense, you want to avoid applying flame directly to the DMT when hitting it - that's what the top layer of herb is for. Rather than applying the flame directly to the DMT, apply it to the herb such that the herb begins to "cherry" as you hit it, which then burns the DMT rather than the flame.
 									</div>
 									<div class="notepaper">
 		            		Assuming you took "the third hit", are you willing to surrender yourself? Letting go is the most important step in the process. It can mean the difference between being ripped apart (metaphorically of course) or being pulled out of yourself and into a beautiful experience. I prefer the latter, and it's easier to achieve than you might think! Just don't worry, remember the medicine wants to take you somewhere beautiful. I've struggled with this at times, relinquishing control is scary, and might require some practice.
