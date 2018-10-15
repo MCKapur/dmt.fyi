@@ -105,7 +105,7 @@ class FAQ extends Component {
 						<div className="faq-item" id="faq-item-8" onClick={() => { this.showFAQ(8) }}>
 							<p className="faq-title" id="faq-title-8">How long is the DMT experience?</p>
 							<p className="faq-answer" id="faq-answer-8" onClick={(e) => { e.stopPropagation(); }}>
-								DMT usually hits almost instantly, and the DMT experience — from an outsiders perspective — lasts anywhere from 5-20 minutes. <sup className="source"><a href="https://www.themix.org.uk/drink-and-drugs/drugs-a-z/dmt-9971.html" target="_blank">8</a></sup> For the user, however, depending on the dose the experience could feel like days, months, years, or even a lifetime.
+								DMT usually hits almost instantly, and the DMT experience — from an outsiders perspective — lasts anywhere from 5-20 minutes. <sup className="source"><a href="https://www.themix.org.uk/drink-and-drugs/drugs-a-z/dmt-9971.html" target="_blank">8</a></sup> For the user, however, depending on the dose the experience could feel like days. In fact, time loses meaning to the extent that it could feel like an eternity.
 							</p>
 						</div>
 						<div className="faq-item" id="faq-item-9" onClick={() => { this.showFAQ(9) }}>
